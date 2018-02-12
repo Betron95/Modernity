@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Modernity</title>
+    <link rel="stylesheet" href="app/css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="app/css/magnific-popup.css">
+    <link rel="stylesheet" href="app/css/swiper.min.css">
+    <link rel="stylesheet" href="app/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="app/css/main.css">
+    <script src="app/js/jquery-3.2.1.min.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script src="app/js/map.js"></script>
+    <script src="app/js/swiper.min.js"></script>
+    <script src="app/js/jquery.magnific-popup.min.js"></script>
+    <script src="app/js/jquery.elevatezoom.js"></script>
+    <script src="app/js/jquery-ui.min.js"></script>
+    <script src="app/js/app.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-desktop">
+                <div class="header-lp">
+                    <div class="header-logo">
+                        <a href="index.html"><img src="./app/img/logo.png" alt=""></a>
+                    </div>
+                    <div class="header-phone">
+                        <a href="tel:+7 (499) 648-10-53">+7 (499) 648-10-53</a>
+                    </div>
+                </div>
+                <div class="header-menu">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="aboutcompany.html">
+                                    <div class="header-item__img">
+                                        <img src="./app/img/header-icon1.png" alt="">
+                                    </div>
+                                    <span>О компании</span></a>
+                            </li>
+                            <li>
+                                <a href="delivery.html">
+                                    <div class="header-item__img">
+                                        <img src="./app/img/header-icon2.png" alt="">
+                                    </div>
+                                    <span>Доставка</span></a>
+                            </li>
+                            <li>
+                                <a href="casing.html">
+                                    <div class="header-item__img">
+                                        <img src="./app/img/header-icon3.png" alt="">
+                                    </div>
+                                    <span>Каталог обивок</span></a>
+                            </li>
+                            <li>
+                                <a href="selection.html">
+                                    <div class="header-item__img">
+                                        <img src="./app/img/header-icon4.png" alt="">
+                                    </div>
+                                    <span>Подбор мебели</span></a>
+                            </li>
+                            <li>
+                                <a href="basket.html">
+                                    <div class="header-item__img">
+                                        <img src="./app/img/header-icon5.png" alt="">
+                                    </div>
+                                    <span>Корзина</span></a>
+                            </li>
+                            <li>
+                                <a href="#backcall" class="open-link-popup">
+                                    <div class="header-item__img">
+                                        <img src="./app/img/header-icon6.png" alt="">
+                                    </div>
+                                    <span>Обратный звонок</span></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="header-mobile">
+                <a href="javascript:void(0);" class="burger">
+                    <div class="burger-box">
+                        <span class="burger-line burger-line-1"></span>
+                        <span class="burger-line burger-line-2"></span>
+                    </div>
+                </a>
+                <div class="header-logo-mobile">
+                    <a href="javascript:void(0);"><img src="./app/img/logo.png" alt=""></a>
+                </div>
+                <div class="header-phone-mobile">
+                    <a href="tel:+7 (499) 648-10-53"><img src="./app/img/header-icon6.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="dd-menu">
+        <nav>
+            <ul>
+                <li>
+                    <a href="aboutcompany.html"><span>О компании</span></a>
+                </li>
+                <li>
+                    <a href="delivery.html"><span>Доставка</span></a>
+                </li>
+                <li>
+                    <a href="casing.html"><span>Каталог обивок</span></a>
+                </li>
+                <li>
+                    <a href="selection.html"><span>Подбор мебели</span></a>
+                </li>
+                <li>
+                    <a href="basket.html"><span>Корзина</span></a>
+                </li>
+                <li>
+                    <a href="#backcall" class="open-link-popup"><span>Обратный звонок</span></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <section class="search">
+        <div class="container">
+            <div class="search-container">
+                <div class="search-choise">
+                    <div class="search-choise__img">
+                        <img src="./app/img/search-list.png" alt="">
+                    </div>
+                </div>
+                <div class="search-category">
+                    <span>каталог товаров</span>
+                </div>
+                <div class="search-find">
+                    <input type="text" placeholder="Что Вы хотите найти?">
+                    <button class="btn btn-find">Найти</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="requisites">
+        <div class="requisites-title-container">
+            <span class="requisites-title">Контакты</span>
+        </div>
+        <div class="container">
+            <div class="requisites-contacts-links">
+                <a href="javascript:void(0);" class="contactslink">Адрес и телефоны</a>
+                <a href="javascript:void(0);" class="maplink active">На карте</a>
+                <a href="javascript:void(0);" class="requisiteslink">Реквизиты</a>
+            </div>
+            <div class="requisites-block">
+                <span class="requisites-block-title">Реквизиты</span>
+                <div class="requisites-block-item">
+                    <span class="requisites-block-item__cat">Наименование организации:</span>
+                    <span class="requisites-block-item__val">ООО «Шарм Дизайн»</span>
+                </div>
+                <div class="requisites-block-item">
+                    <span class="requisites-block-item__cat">Юридический и фактический адреса: </span>
+                    <span class="requisites-block-item__val">127018, г. Москва, ул. Складочная, дом 15, стр. 2</span>
+                </div>
+                <div class="requisites-block-item">
+                    <span class="requisites-block-item__cat">ИНН</span>
+                    <span class="requisites-block-item__val">7715316100</span>
+                </div>
+                <div class="requisites-block-item">
+                    <span class="requisites-block-item__cat">КПП</span>
+                    <span class="requisites-block-item__val">771501001</span>
+                </div>
+                <div class="requisites-block-item">
+                    <span class="requisites-block-item__cat">ОГРН</span>
+                    <span class="requisites-block-item__val">1027700374679</span>
+                </div>
+                <div class="requisites-block-item">
+                    <span class="requisites-block-item__cat">К/С</span>
+                    <span class="requisites-block-item__val">301 018 102 000 000 007 00</span>
+                </div>
+                <div class="requisites-block-item">
+                    <span class="requisites-block-item__cat">Р/С</span>
+                    <span class="requisites-block-item__val">40702 810 10 00014 41583</span>
+                </div>
+                <div class="requisites-block-item">
+                    <span class="requisites-block-item__cat">Банк</span>
+                    <span class="requisites-block-item__val">АО «РАЙФФАЙЗЕНБАНК» Г.МОСКВА</span>
+                </div>
+                <div class="requisites-block-item">
+                    <span class="requisites-block-item__cat">БИК</span>
+                    <span class="requisites-block-item__val">044 525 700</span>
+                </div>
+                <!--<div class="requisites-description">-->
+                    <!--<p>По всем возникшим вопросам Вы может звонить нам, и наши менеджеры с удовольствием ответят на-->
+                       <!--все Ваши вопросы и помогут определиться с выбором. Мы работаем с 9 до 22 ежедневно. Звоните,-->
+                       <!--мы ждем Ваших звонков. Мы любим свою работу, и нам приятно, когда Вы довольны.</p>-->
+                <!--</div>-->
+            </div>
+            <div class="contacts-block">
+                <div class="contacts-block-container">
+                    <div class="contacts-block-left">
+                        <span class="contacts-block-title">Интернет магазин</span>
+                        <div class="contacts-block-str">
+                            <div class="contacts-block-body__item">
+                                <img src="./app/img/tc-page-icon3.png" alt="">
+                                <span>+7(499)648-10-53</span>
+                            </div>
+                            <div class="contacts-block-body__item">
+                                <img src="./app/img/tc-page-icon2.png" alt="">
+                                <span>С 9:00 до 22:00 ежедневно</span>
+                            </div>
+                        </div>
+                        <span class="contacts-block-title">Оптовый отдел</span>
+                        <div class="contacts-block-body-str">
+                            <div class="contacts-block-body__item">
+                                <img src="./app/img/tc-page-icon1.png" alt="">
+                                <span>ул. Складочная, дом 15, стр.2 </span>
+                            </div>
+                            <div class="contacts-block-body__item">
+                                <img src="./app/img/tc-page-icon2.png" alt="">
+                                <span>Пн.-Пт. 9:00 - 19:00, Сб. 9:00 - 18:00</span>
+                            </div>
+                        </div>
+                        <div class="contacts-block-body-str">
+                            <div class="contacts-block-body__item">
+                                <img src="./app/img/tc-page-icon3.png" alt="">
+                                <span>+7(499)648-10-53</span>
+                            </div>
+                            <div class="contacts-block-body__item">
+                                <img src="./app/img/tc-page-icon4.png" alt="">
+                                <span>Марьина Роща</span>
+                            </div>
+                        </div>
+                        <div class="contacts-block-body-str">
+                            <div class="contacts-block-body__item">
+                                <img src="./app/img/tc-page-icon3.png" alt="">
+                                <span>+7(499)648-10-53</span>
+                            </div>
+                            <div class="contacts-block-body__item">
+                                <img src="./app/img/tc-page-icon4.png" alt="">
+                                <span>Савеловская</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contacts-block-right">
+                        <form>
+                            <div class="contactsform-item">
+                                <label for="name">Имя</label>
+                                <input type="text" id="name">
+                            </div>
+                            <div class="contactsform-item">
+                                <label for="mail">E-mail</label>
+                                <input type="text" id="mail">
+                            </div>
+                            <div class="contactsform-item contactsform-mes">
+                                <label for="mes">Сообщение</label>
+                                <textarea type="text" id="mes"></textarea>
+                            </div>
+                            <div class="contacts-block-btncontainer">
+                                <button class="btn contacts-btn-form">Отправить</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="map-block">
+                <div  id="map" class="tc-page-map"></div>
+            </div>
+            <div class="requisites-description">
+                <p>По всем возникшим вопросам Вы может звонить нам, и наши менеджеры с удовольствием ответят на
+                    все Ваши вопросы и помогут определиться с выбором. Мы работаем с 9 до 22 ежедневно. Звоните,
+                    мы ждем Ваших звонков. Мы любим свою работу, и нам приятно, когда Вы довольны.</p>
+            </div>
+        </div>
+    </section>
+    <section class="footer-contacts">
+        <div class="container">
+            <div class="footer-contacts-links">
+                <div class="footer-contacts-about">
+                    <a href="javascript:void(0);">О компании</a>
+                    <a href="javascript:void(0);">Партнерам</a>
+                    <a href="javascript:void(0);">Полезная информация</a>
+                    <a href="javascript:void(0);">Контакты</a>
+                </div>
+                <div class="footer-contacts-social">
+                    <span>Общайтесь с нами:</span>
+                    <div class="footer-social-icons">
+                        <noindex><a rel="nofollow" href="javascript:void(0);"><img src="./app/img/social1.png" alt=""></a></noindex>
+                        <noindex><a rel="nofollow" href="javascript:void(0);"><img src="./app/img/social2.png" alt=""></a></noindex>
+                        <noindex><a rel="nofollow" href="javascript:void(0);"><img src="./app/img/social3.png" alt=""></a></noindex>
+                        <noindex><a rel="nofollow" href="javascript:void(0);"><img src="./app/img/social4.png" alt=""></a></noindex>
+                    </div>
+                    <a href="mailto:info@modernity.ru">info@modernity.ru</a>
+                </div>
+                <div class="footer-contacts-shop">
+                    <span>Посмотреть на готовую мебель можно в </span><a href="javascript:void(0);">наших магазинах</a>
+                </div>
+            </div>
+            <div class="footer-contacts-paymet">
+                <div class="footer-contacts-guar">
+                    <p class="footer-contacts-paymet__title">Какие гарантии?</p>
+                    <p class="footer-contacts-paymet__desc">
+                        Мы предоставляем
+                        гарантию на ремонт и
+                        диагностику мебели
+                    </p>
+                    <a href="javascript:void(0);" class="footer-contacts-paymet__stock">18 месяцев бесплатно</a>
+                </div>
+                <div class="footer-contacts-pay">
+                    <p class="footer-contacts-paymet__title">Способы оплаты</p>
+                    <p class="footer-contacts-paymet__desc">
+                        Вы можете оплатить покупки
+                        наличными при получении, или
+                        выбрапть другой способ оплаты:
+                    </p>
+                    <div class="footer-contacts-paymet__cards">
+                        <img src="./app/img/payment1.png" alt="">
+                        <img src="./app/img/payment2.png" alt="">
+                        <img src="./app/img/payment3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-years">
+                <span>© 1998 - 2017 мебельная фабрика Modernity</span><img src="./app/img/footer-yandex.png" alt="">
+            </div>
+            <div class="footer-agree">
+                <a href="javascript:void(0);">Пользовательское соглашение</a>
+                <a href="javascript:void(0);">Положение о конфиденциальности</a>
+            </div>
+        </div>
+    </footer>
+    <!--Окна-->
+    <div id="backcall" class="mfp-hide backcall">
+        <div class="backcall-body">
+            <span class="backcall-title">Обратный звонок</span>
+            <form action="">
+                <div class="backcall-form-item">
+                    <label for="backcall-name">Ваше имя</label>
+                    <input type="text" id="backcall-name">
+                </div>
+                <div class="backcall-form-item">
+                    <label for="backcall-city">Город</label>
+                    <input type="text" id="backcall-city">
+                </div>
+                <div class="backcall-form-item">
+                    <label for="backcall-phone">Телефон</label>
+                    <input type="text" id="backcall-phone">
+                </div>
+                <div class="backcall-form-item backcall-form-item-last">
+                    <label for="backcall-comment">Комментарии</label>
+                    <textarea type="text" id="backcall-comment"></textarea>
+                </div>
+                <div class="backcall-btn-container">
+                    <button class="btn btn-backcall">Перезвоните</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

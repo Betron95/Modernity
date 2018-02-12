@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Modernity</title>
+    <link rel="stylesheet" href="app/css/normalize.css">
+    <link rel="stylesheet" href="app/css/swiper.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="app/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="app/css/magnific-popup.css">
+    <link rel="stylesheet" href="app/css/main.css">
+    <script src="app/js/jquery-3.2.1.min.js"></script>
+    <script src="app/js/swiper.min.js"></script>
+    <script src="app/js/jquery.elevatezoom.js"></script>
+    <script src="app/js/jquery.magnific-popup.min.js"></script>
+    <script src="app/js/jquery-ui.min.js"></script>
+    <script src="app/js/app.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-desktop">
+                <div class="header-lp">
+                    <div class="header-logo">
+                        <a href="index.html"><img src="./app/img/logo.png" alt=""></a>
+                    </div>
+                    <div class="header-phone">
+                        <a href="tel:+7 (499) 648-10-53">+7 (499) 648-10-53</a>
+                    </div>
+                </div>
+                <div class="header-menu">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="aboutcompany.html">
+                                    <div class="header-item__img">
+                                        <img src="./app/img/header-icon1.png" alt="">
+                                    </div>
+                                    <span>О компании</span></a>
+                            </li>
+                            <li>
+                                <a href="delivery.html">
+                                    <div class="header-item__img">
+                                        <img src="./app/img/header-icon2.png" alt="">
+                                    </div>
+                                    <span>Доставка</span></a>
+                            </li>
+                            <li>
+                                <a href="casing.html">
+                                    <div class="header-item__img">
+                                        <img src="./app/img/header-icon3.png" alt="">
+                                    </div>
+                                    <span>Каталог обивок</span></a>
+                            </li>
+                            <li>
+                                <a href="selection.html">
+                                    <div class="header-item__img">
+                                        <img src="./app/img/header-icon4.png" alt="">
+                                    </div>
+                                    <span>Подбор мебели</span></a>
+                            </li>
+                            <li>
+                                <a href="basket.html">
+                                    <div class="header-item__img">
+                                        <img src="./app/img/header-icon5.png" alt="">
+                                    </div>
+                                    <span>Корзина</span></a>
+                            </li>
+                            <li>
+                                <a href="#backcall" class="open-link-popup">
+                                    <div class="header-item__img">
+                                        <img src="./app/img/header-icon6.png" alt="">
+                                    </div>
+                                    <span>Обратный звонок</span></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="header-mobile">
+                <a href="javascript:void(0);" class="burger">
+                    <div class="burger-box">
+                        <span class="burger-line burger-line-1"></span>
+                        <span class="burger-line burger-line-2"></span>
+                    </div>
+                </a>
+                <div class="header-logo-mobile">
+                    <a href="javascript:void(0);"><img src="./app/img/logo.png" alt=""></a>
+                </div>
+                <div class="header-phone-mobile">
+                    <a href="tel:+7 (499) 648-10-53"><img src="./app/img/header-icon6.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="dd-menu">
+        <nav>
+            <ul>
+                <li>
+                    <a href="aboutcompany.html"><span>О компании</span></a>
+                </li>
+                <li>
+                    <a href="delivery.html"><span>Доставка</span></a>
+                </li>
+                <li>
+                    <a href="casing.html"><span>Каталог обивок</span></a>
+                </li>
+                <li>
+                    <a href="selection.html"><span>Подбор мебели</span></a>
+                </li>
+                <li>
+                    <a href="basket.html"><span>Корзина</span></a>
+                </li>
+                <li>
+                    <a href="#backcall" class="open-link-popup"><span>Обратный звонок</span></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <section class="search">
+        <div class="container">
+            <div class="search-container">
+                <div class="search-choise">
+                    <div class="search-choise__img">
+                        <img src="./app/img/search-list.png" alt="">
+                    </div>
+                </div>
+                <div class="search-category">
+                    <span>каталог товаров</span>
+                </div>
+                <div class="search-find">
+                    <input type="text" placeholder="Что Вы хотите найти?">
+                    <button class="btn btn-find">Найти</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="casing">
+        <div class="container">
+            <span class="casing-title">Каталог обивок</span>
+            <span class="casing-variant">Вариаций обивочных тканей более 4 000!</span>
+            <p class="casing-desc">Чтобы интерьер помещения выглядел модно, стильно и гармонично, закажите у нас
+                мягкую мебель с обивкой из современных практичных материалов. На Ваш выбор широкий
+                ассортимент искусственной кожи, шенилла, жаккарда, микрофибры, флока, велюра и
+                рогожки различных расцветок, узоров и текстур.</p>
+            <div class="subsection-all">
+                <div class="subsection-sample">
+                    <div class="subsection-sample-section">
+                        <span>Материалы</span>
+                        <a href="javascript:void(0);" class="closeopen"><p>Свернуть</p><img src="./app/img/picking.png" alt=""></a>
+                    </div>
+                    <div class="subsection-checkboxes">
+                        <div class="subsection-checkboxes-type">
+                            <div class="subsection-checkboxes-type__item">
+                                <input class="checkboxstyle" type="checkbox" name="material" id="material1"><label for="material1"><span></span>Искусственная кожа</label>
+                            </div>
+                            <div class="subsection-checkboxes-type__item">
+                                <input class="checkboxstyle" type="checkbox" name="material" id="material2"><label for="material2"><span></span>Шенилл</label>
+                            </div>
+                            <div class="subsection-checkboxes-type__item">
+                                <input class="checkboxstyle" type="checkbox" name="material" id="material3"><label for="material3"><span></span>Жаккард</label>
+                            </div>
+                            <div class="subsection-checkboxes-type__item">
+                                <input class="checkboxstyle" type="checkbox" name="material" id="material4"><label for="material4"><span></span>Микрофибра</label>
+                            </div>
+                            <div class="subsection-checkboxes-type__item">
+                                <input class="checkboxstyle" type="checkbox" name="material" id="material5"><label for="material5"><span></span>Флок</label>
+                            </div>
+                            <div class="subsection-checkboxes-type__item">
+                                <input class="checkboxstyle" type="checkbox" name="material" id="material6"><label for="material6"><span></span>Велюр</label>
+                            </div>
+                            <div class="subsection-checkboxes-type__item">
+                                <input class="checkboxstyle" type="checkbox" name="material" id="material7"><label for="material7"><span></span>Рогожка</label>
+                            </div>
+                            <div class="subsection-checkboxes-type__item">
+                                <input class="checkboxstyle" type="checkbox" name="material" id="material8"><label for="material8"><span></span>Майкровелюр</label>
+                            </div>
+                            <div class="subsection-checkboxes-type__item">
+                                <input class="checkboxstyle" type="checkbox" name="material" id="material9"><label for="material9"><span></span>Nittex</label>
+                            </div>
+                            <div class="subsection-checkboxes-type__item">
+                                <input class="checkboxstyle" type="checkbox" name="material" id="material10"><label for="material10"><span></span>Термопечать</label>
+                            </div>
+                            <div class="subsection-checkboxes-type__item">
+                                <input class="checkboxstyle" type="checkbox" name="material" id="material11"><label for="material11"><span></span>Мебельная замша</label>
+                            </div>
+                            <div class="subsection-checkboxes-type__item">
+                                <input class="checkboxstyle" type="checkbox" name="material" id="material12"><label for="material12"><span></span>Дерево</label>
+                            </div>
+                            <div class="subsection-checkboxes-type__item">
+                                <input class="checkboxstyle" type="checkbox" name="material" id="material13"><label for="material13"><span></span>Антивода</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="subsection-sample-section">
+                        <span>Цвета</span>
+                        <a href="javascript:void(0);" class="closeopen"><p>Свернуть</p><img src="./app/img/picking.png" alt=""></a>
+                    </div>
+                    <div class="subsection-checkboxes">
+                        <div class="subsection-checkboxes-type">
+                            <div class="subsection-checkboxes-type__item">
+                                <input class="checkboxstyle" type="checkbox" name="color" id="color1"><label for="color1"><span></span>Коричневый</label>
+                            </div>
+                            <div class="subsection-checkboxes-type__item">
+                                <input class="checkboxstyle" type="checkbox" name="color" id="color2"><label for="color2"><span></span>Красно-розовый</label>
+                            </div>
+                            <div class="subsection-checkboxes-type__item">
+                                <input class="checkboxstyle" type="checkbox" name="color" id="color3"><label for="color3"><span></span>Желто-оранжевый</label>
+                            </div>
+                            <div class="subsection-checkboxes-type__item">
+                                <input class="checkboxstyle" type="checkbox" name="color" id="color4"><label for="color4"><span></span>Бежевый</label>
+                            </div>
+                            <div class="subsection-checkboxes-type__item">
+                                <input class="checkboxstyle" type="checkbox" name="color" id="color5"><label for="color5"><span></span>Зеленый</label>
+                            </div>
+                            <div class="subsection-checkboxes-type__item">
+                                <input class="checkboxstyle" type="checkbox" name="color" id="color6"><label for="color6"><span></span>Синий</label>
+                            </div>
+                            <div class="subsection-checkboxes-type__item">
+                                <input class="checkboxstyle" type="checkbox" name="color" id="color7"><label for="color7"><span></span>Фиолетовый</label>
+                            </div>
+                            <div class="subsection-checkboxes-type__item">
+                                <input class="checkboxstyle" type="checkbox" name="color" id="color8"><label for="color8"><span></span>Черный</label>
+                            </div>
+                            <div class="subsection-checkboxes-type__item">
+                                <input class="checkboxstyle" type="checkbox" name="color" id="color9"><label for="color9"><span></span>Серый</label>
+                            </div>
+                            <div class="subsection-checkboxes-type__item">
+                                <input class="checkboxstyle" type="checkbox" name="color" id="color10"><label for="color10"><span></span>Белый</label>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-subsection">Очистить все</button>
+                </div>
+                <div class="subsection-viewitem">
+                    <div class="subsection-viewitem-head">
+                        <div class="subsection-viewitem-head__left">
+                            <div class="subsection-display active">
+                                <img src="./app/img/display1active.png" alt="" class="activeimg">
+                                <img src="./app/img/display1.png" alt="" class="noactive">
+                            </div>
+                            <div class="subsection-display">
+                                <img src="./app/img/display2.png" alt="">
+                                <img src="./app/img/display2active.png" alt="" class="noactive">
+                            </div>
+                        </div>
+                        <div class="subsection-viewitem-head__right">
+                            <div class="subsection-viewitem-head-num">
+                                <span>Материалов на странице</span>
+                                <div class="custom-select">
+                                    <input type="hidden">
+                                    <a class="material-link active" href="javascript:void(0);">12</a>
+                                    <ul class="material-select-dd">
+                                        <li><a href="javascript:void(0);">12</a></li>
+                                        <li><a href="javascript:void(0);">18</a></li>
+                                        <li><a href="javascript:void(0);">24</a></li>
+                                    </ul>
+                                    <div class="custom-select-arrow">
+                                        <img src="./app/img/orangeselect.png" alt="">
+                                    </div>
+                                </div>
+                                <!--<select class="subsectionselect subsectionselect1">-->
+                                    <!--<option>12</option>-->
+                                    <!--<option>16</option>-->
+                                    <!--<option>20</option>-->
+                                <!--</select>-->
+                            </div>
+                            <div class="subsection-viewitem-head-sort">
+                                <span>Сортировать по</span>
+                                <!--<select class="subsectionselect">-->
+                                    <!--<option> алфавиту</option>-->
+                                    <!--<option> популярности</option>-->
+                                    <!--<option> дате</option>-->
+                                <!--</select>-->
+                                <div class="custom-select">
+                                    <input type="hidden">
+                                    <a class="material-link active" href="javascript:void(0);">популярности</a>
+                                    <ul class="material-select-dd">
+                                        <li><a href="javascript:void(0);">алфавиту</a></li>
+                                        <li><a href="javascript:void(0);">популярности</a></li>
+                                        <li><a href="javascript:void(0);">дате</a></li>
+                                    </ul>
+                                    <div class="custom-select-arrow">
+                                        <img src="./app/img/orangeselect.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="subsection-viewitem-body">
+                        <span class="subsection-viewitem-body__title">Искуственная кожа</span>
+                        <div class="casing-items">
+                            <div class="casing-item">
+                                <div class="casing-item__img">
+                                    <img src="./app/img/casing2.png" alt="">
+                                </div>
+                                <div class="casing-item-text">
+                                    <span class="casing-item__title">Tresor Cream</span>
+                                    <span class="casing-item__color">серый</span>
+                                </div>
+                            </div>
+                            <div class="casing-item">
+                                <div class="casing-item__img">
+                                    <img src="./app/img/casing2.png" alt="">
+                                </div>
+                                <div class="casing-item-text">
+                                    <span class="casing-item__title">Tresor Cocoa</span>
+                                    <span class="casing-item__color">серый</span>
+                                </div>
+                            </div>
+                            <div class="casing-item">
+                                <div class="casing-item__img">
+                                    <img src="./app/img/casing3.png" alt="">
+                                </div>
+                                <div class="casing-item-text">
+                                    <span class="casing-item__title">Tresor Desert</span>
+                                    <span class="casing-item__color">бежевый</span>
+                                </div>
+                            </div>
+                            <div class="casing-item">
+                                <div class="casing-item__img">
+                                    <img src="./app/img/casing4.png" alt="">
+                                </div>
+                                <div class="casing-item-text">
+                                    <span class="casing-item__title">Tresor Mango</span>
+                                    <span class="casing-item__color">желто-оранжевый</span>
+                                </div>
+                            </div>
+                            <div class="casing-item">
+                                <div class="casing-item__img">
+                                    <img src="./app/img/casing5.png" alt="">
+                                </div>
+                                <div class="casing-item-text">
+                                    <span class="casing-item__title">Tresor Pink</span>
+                                    <span class="casing-item__color">красно-розовый</span>
+                                </div>
+                            </div>
+                            <div class="casing-item">
+                                <div class="casing-item__img">
+                                    <img src="./app/img/casing6.png" alt="">
+                                </div>
+                                <div class="casing-item-text">
+                                    <span class="casing-item__title">Tresor Red</span>
+                                    <span class="casing-item__color">красно-розовый</span>
+                                </div>
+                            </div>
+                            <div class="casing-item">
+                                <div class="casing-item__img">
+                                    <img src="./app/img/casing7.png" alt="">
+                                </div>
+                                <div class="casing-item-text">
+                                    <span class="casing-item__title">Tresor White</span>
+                                    <span class="casing-item__color">белый</span>
+                                </div>
+                            </div>
+                            <div class="casing-item">
+                                <div class="casing-item__img">
+                                    <img src="./app/img/casing8.png" alt="">
+                                </div>
+                                <div class="casing-item-text darkcasing">
+                                    <span class="casing-item__title">Koss 10</span>
+                                    <span class="casing-item__color">черный</span>
+                                </div>
+                            </div>
+                            <div class="casing-item">
+                                <div class="casing-item__img">
+                                    <img src="./app/img/casing9.png" alt="">
+                                </div>
+                                <div class="casing-item-text darkcasing">
+                                    <span class="casing-item__title">Koss 11</span>
+                                    <span class="casing-item__color">черный</span>
+                                </div>
+                            </div>
+                            <div class="casing-item">
+                                <div class="casing-item__img">
+                                    <img src="./app/img/casing10.png" alt="">
+                                </div>
+                                <div class="casing-item-text darkcasing">
+                                    <span class="casing-item__title">Koss 12</span>
+                                    <span class="casing-item__color">черный</span>
+                                </div>
+                            </div>
+                            <div class="casing-item">
+                                <div class="casing-item__img">
+                                    <img src="./app/img/casing11.png" alt="">
+                                </div>
+                                <div class="casing-item-text darkcasing">
+                                    <span class="casing-item__title">Koss 13</span>
+                                    <span class="casing-item__color">черный</span>
+                                </div>
+                            </div>
+                            <div class="casing-item">
+                                <div class="casing-item__img">
+                                    <img src="./app/img/casing12.png" alt="">
+                                </div>
+                                <div class="casing-item-text">
+                                    <span class="casing-item__title">Mykonos 01</span>
+                                    <span class="casing-item__color">серый</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="subsection-pagenum">
+                        <div class="subsection-pagenum-contleft">
+                            <img class="subsection-pagenum-left" src="./app/img/orangeselect.png" alt="">
+                            <ul class="pageul">
+                                <li class="active"><a href="javascript:void(0);">1</a></li>
+                                <li><a href="javascript:void(0);">2</a></li>
+                                <li><a href="javascript:void(0);">3</a></li>
+                                <li><a href="javascript:void(0);">4</a></li>
+                                <li><a href="javascript:void(0);">5</a></li>
+                            </ul>
+                            <img class="subsection-pagenum-right" src="./app/img/orangeselect.png" alt="">
+                        </div>
+                        <div class="subsection-pagenum--contright">
+                            <div class="subsection-viewitem-head-num">
+                                <span>Материалов на странице</span>
+                                <div class="custom-select">
+                                    <input type="hidden">
+                                    <a class="material-link active" href="javascript:void(0);">12</a>
+                                    <ul class="material-select-dd">
+                                        <li><a href="javascript:void(0);">12</a></li>
+                                        <li><a href="javascript:void(0);">18</a></li>
+                                        <li><a href="javascript:void(0);">24</a></li>
+                                    </ul>
+                                    <div class="custom-select-arrow">
+                                        <img src="./app/img/orangeselect.png" alt="">
+                                    </div>
+                                </div>
+                                <!--<select class="subsectionselect subsectionselect1">-->
+                                    <!--<option>12</option>-->
+                                    <!--<option>16</option>-->
+                                    <!--<option>20</option>-->
+                                <!--</select>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer-contacts">
+        <div class="container">
+            <div class="footer-contacts-links">
+                <div class="footer-contacts-about">
+                    <a href="javascript:void(0);">О компании</a>
+                    <a href="javascript:void(0);">Партнерам</a>
+                    <a href="javascript:void(0);">Полезная информация</a>
+                    <a href="javascript:void(0);">Контакты</a>
+                </div>
+                <div class="footer-contacts-social">
+                    <span>Общайтесь с нами:</span>
+                    <div class="footer-social-icons">
+                        <noindex><a rel="nofollow" href="javascript:void(0);"><img src="./app/img/social1.png" alt=""></a></noindex>
+                        <noindex><a rel="nofollow" href="javascript:void(0);"><img src="./app/img/social2.png" alt=""></a></noindex>
+                        <noindex><a rel="nofollow" href="javascript:void(0);"><img src="./app/img/social3.png" alt=""></a></noindex>
+                        <noindex><a rel="nofollow" href="javascript:void(0);"><img src="./app/img/social4.png" alt=""></a></noindex>
+                    </div>
+                    <a href="mailto:info@modernity.ru">info@modernity.ru</a>
+                </div>
+                <div class="footer-contacts-shop">
+                    <span>Посмотреть на готовую мебель можно в </span><a href="javascript:void(0);">наших магазинах</a>
+                </div>
+            </div>
+            <div class="footer-contacts-paymet">
+                <div class="footer-contacts-guar">
+                    <p class="footer-contacts-paymet__title">Какие гарантии?</p>
+                    <p class="footer-contacts-paymet__desc">
+                        Мы предоставляем
+                        гарантию на ремонт и
+                        диагностику мебели
+                    </p>
+                    <a href="javascript:void(0);" class="footer-contacts-paymet__stock">18 месяцев бесплатно</a>
+                </div>
+                <div class="footer-contacts-pay">
+                    <p class="footer-contacts-paymet__title">Способы оплаты</p>
+                    <p class="footer-contacts-paymet__desc">
+                        Вы можете оплатить покупки
+                        наличными при получении, или
+                        выбрапть другой способ оплаты:
+                    </p>
+                    <div class="footer-contacts-paymet__cards">
+                        <img src="./app/img/payment1.png" alt="">
+                        <img src="./app/img/payment2.png" alt="">
+                        <img src="./app/img/payment3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-years">
+                <span>© 1998 - 2017 мебельная фабрика Modernity</span><img src="./app/img/footer-yandex.png" alt="">
+            </div>
+            <div class="footer-agree">
+                <a href="javascript:void(0);">Пользовательское соглашение</a>
+                <a href="javascript:void(0);">Положение о конфиденциальности</a>
+            </div>
+        </div>
+    </footer>
+    <!--Окна-->
+    <div id="backcall" class="mfp-hide backcall">
+        <div class="backcall-body">
+            <span class="backcall-title">Обратный звонок</span>
+            <form action="">
+                <div class="backcall-form-item">
+                    <label for="backcall-name">Ваше имя</label>
+                    <input type="text" id="backcall-name">
+                </div>
+                <div class="backcall-form-item">
+                    <label for="backcall-city">Город</label>
+                    <input type="text" id="backcall-city">
+                </div>
+                <div class="backcall-form-item">
+                    <label for="backcall-phone">Телефон</label>
+                    <input type="text" id="backcall-phone">
+                </div>
+                <div class="backcall-form-item backcall-form-item-last">
+                    <label for="backcall-comment">Комментарии</label>
+                    <textarea type="text" id="backcall-comment"></textarea>
+                </div>
+                <div class="backcall-btn-container">
+                    <button class="btn btn-backcall">Перезвоните</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
