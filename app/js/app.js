@@ -203,8 +203,8 @@ $(function () {
     });
 
     function basketcalc() {
-        var count = 2;
-        var cena = 2;
+        var count = 3;
+        var cena = 3;
         var res = count * cena;
     };
     basketcalc();
